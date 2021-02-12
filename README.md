@@ -6,4 +6,4 @@ Motifs must be input by the user in the form of a text file: ```-m motif.txt```
 
 
 Required packages include: Pycairo.
-Pycairo can be installed by running ```conda install -c conda-forge cairo```
+Pycairo can be installed by running ```conda install -c conda-forge cairo``` or if on local you can run ```pip install cairo```
