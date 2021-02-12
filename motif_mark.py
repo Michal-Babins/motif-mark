@@ -14,7 +14,7 @@ import argparse
 def args():
     ''' Argparse takes various arguments that will be specific to the users input. Argparse requires
         a fasta file, and motif file. '''
-    parser=argparse.ArgumentParser(description = "Deduper code")
+    parser=argparse.ArgumentParser(description = "Visualize your Motifs!")
     parser.add_argument("-i","--input", help="fasta file with sequences", required = True, type = str)
     parser.add_argument("-m","--motif", help="File containing motifs", required = True, type = str)
     return parser.parse_args()
