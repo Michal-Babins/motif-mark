@@ -13,7 +13,7 @@ Once you have the script in your environment, and pycairo intalled, you will nee
 
 ```python motif-mark.py -i ./file.fasta -m ./motif.txt```
 
-Here is the output (reminder that colors are randomly generated and subject to change): 
+Here is the output as an svg (reminder that colors are randomly generated and subject to change): 
 ![svg](motif_plot.svg)
 
 
